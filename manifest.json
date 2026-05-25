@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Menu Mobile Helper",
+    "version": "1.0",
+    "description": "Adds one or more CSS classes to elements matching a selector on a WordPress site.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

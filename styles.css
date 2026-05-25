@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  button#activate.active {
+    background-color: #28a745; /* Vert */
+    color: white;
+    border: none;
+  }
+  
+  button#activate {
+    background-color: #007bff; /* Bleu */
+    color: white;
+    border: none;
+  }
+  

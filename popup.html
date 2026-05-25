@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Mobile Helper</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 300px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    button#activate {
+      background-color: #007bff;
+      color: white;
+    }
+    button#activate.active {
+      background-color: #28a745;
+    }
+    button#deactivate {
+      background-color: #dc3545;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h3>Menu Mobile Helper</h3>
+  <label>Selector: <input type="text" id="selector" placeholder=".wp-block-navigation__responsive-container"></label>
+  <label>Class to add: <input type="text" id="class" placeholder="has-modal-open is-menu-open"></label>
+  <button id="activate">Activate</button>
+  <button id="deactivate">Deactivate</button>
+  <script src="popup.js"></script>
+</body>
+</html>
