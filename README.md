@@ -1,5 +1,9 @@
 # Menu Mobile Helper
 
+<p align="center">
+  <img src="icon-128.png" width="96" height="96" alt="Menu Mobile Helper icon">
+</p>
+
 Chrome extension to temporarily add one or more CSS classes to elements matching a selector on the current page.
 
 It was originally built for WordPress front-end debugging, especially mobile menus that close as soon as the page loses focus or the user clicks elsewhere. By forcing an "open" class, the menu stays visible long enough to inspect its HTML and CSS in DevTools.
